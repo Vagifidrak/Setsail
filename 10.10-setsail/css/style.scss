@@ -1,0 +1,40 @@
+#topHeader {
+  color: white;
+  background-color: black;
+  .profil {
+    background-color: #3fd0d4;
+    padding: 15px;
+  }
+.left-info{
+    span{
+        margin-right: 8px;
+    }
+}
+  .sosial-icon i {
+    padding: 8px;
+  }
+  .dropedDown {
+    position: relative;
+    padding: 15px 45px;
+    background-color: #3abdc1;
+  }
+  &:hover {
+    .drop-menu {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  .drop-menu {
+    transition: 0.2s ease-in-out;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+  }
+  li {
+    padding: 15px;
+    background-color: aqua;
+  }
+}

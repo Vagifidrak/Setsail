@@ -1,0 +1,30 @@
+#topHeader {
+  color: white;
+  background-color: black; }
+  #topHeader .profil {
+    background-color: #3fd0d4;
+    padding: 15px; }
+  #topHeader .left-info span {
+    margin-right: 8px; }
+  #topHeader .sosial-icon i {
+    padding: 8px; }
+  #topHeader .dropedDown {
+    position: relative;
+    padding: 15px 45px;
+    background-color: #3abdc1; }
+  #topHeader:hover .drop-menu {
+    visibility: visible;
+    opacity: 1; }
+  #topHeader .drop-menu {
+    transition: 0.2s ease-in-out;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden; }
+  #topHeader li {
+    padding: 15px;
+    background-color: aqua; }
+
+/*# sourceMappingURL=style.css.map */
