@@ -28,23 +28,37 @@
       padding: 15px;
       background-color: aqua; }
 
-#Header .logo {
-  width: 150px; }
-#Header ul li {
-  list-style: none;
-  padding-top: 15px; }
-#Header a {
-  font-size: 18px;
-  font-weight: 800;
-  text-decoration: none;
-  color: #505050;
-  padding-top: 20px; }
-#Header i {
-  font-size: 18px;
-  text-decoration: none;
-  color: #1c1c1c;
-  padding: 8px;
-  margin: 0; }
+#Header {
+  position: relative; }
+
+.NavBar li {
+  padding: 15px 25px; }
+.NavBar .droppedMenu {
+  position: relative; }
+  .NavBar .droppedMenu:hover .dropdownMenu {
+    opacity: 1;
+    visibility: visible; }
+  .NavBar .droppedMenu .dropdownMenu {
+    transition: 0.3s;
+    position: absolute;
+    left: 0;
+    background: white;
+    top: 100%;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden; }
+.NavBar .bigdropped:hover .bigdropdown-menu {
+  opacity: 1;
+  visibility: visible; }
+.NavBar .bigdropped .bigdropdown-menu {
+  transition: 0.3s;
+  position: absolute;
+  left: 0;
+  background: white;
+  top: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden; }
 
 #Holiday {
   background-image: url(https://setsail.select-themes.com/wp-content/uploads/2018/09/destionations-1-title.jpg);
