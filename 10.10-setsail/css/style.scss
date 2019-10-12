@@ -1,3 +1,6 @@
+// ==========
+// TopHeader Start
+// ==========
 #topHeader {
   color: white;
   background-color: black;
@@ -5,11 +8,11 @@
     background-color: #3fd0d4;
     padding: 15px;
   }
-.left-info{
-    span{
-        margin-right: 8px;
+  .left-info {
+    span {
+      margin-right: 8px;
     }
-}
+  }
   .sosial-icon i {
     padding: 8px;
   }
@@ -17,24 +20,176 @@
     position: relative;
     padding: 15px 45px;
     background-color: #3abdc1;
-  }
-  &:hover {
+    &:hover {
+      .drop-menu {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
     .drop-menu {
-      visibility: visible;
-      opacity: 1;
+      transition: 0.2s ease-in-out;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      width: 100%;
+      z-index: 5;
+      opacity: 0;
+      visibility: hidden;
+    }
+    li {
+      padding: 15px;
+      background-color: aqua;
     }
   }
-  .drop-menu {
-    transition: 0.2s ease-in-out;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    width: 100%;
-    opacity: 0;
-    visibility: hidden;
+}
+// ==========
+// TopHeader End
+// ==========
+
+// ==========
+// Header Start
+// ==========
+#Header {
+  .logo {
+    width: 150px;
   }
-  li {
-    padding: 15px;
-    background-color: aqua;
+  ul {
+    li {
+      list-style: none;
+      padding-top: 15px;
+    }
+  }
+  a {
+    font-size: 18px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #505050;
+    padding-top: 20px;
+  }
+
+  i {
+    font-size: 18px;
+    text-decoration: none;
+    color: #1c1c1c;
+    padding: 8px;
+    margin: 0;
   }
 }
+// ==========
+// Header End
+// ==========
+
+// ==========
+// Holiday start
+// ==========
+#Holiday {
+  background-image: url(https://setsail.select-themes.com/wp-content/uploads/2018/09/destionations-1-title.jpg);
+  width: 100%;
+  background-attachment: fixed;
+  .Holiday {
+    padding: 14rem 0;
+    text-align: center;
+  }
+  h3 {
+    font-size: 33px;
+    font-weight: 400;
+    color: aliceblue;
+    text-align: center;
+    font-family: "Satisfy", cursive;
+  }
+
+  h1 {
+    color: aliceblue;
+    font-size: 65px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+}
+// ==========
+// Holiday End
+// ==========
+
+// ==========
+// Seaside Start
+// ==========
+#Seaside {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.714285714285714em;
+  font-weight: 400;
+  color: #505050;
+
+  .seasideAll {
+    margin-top: -100px;
+    background-color: white;
+    padding: 3rem;
+    box-shadow: 0 3px 20px 5px rgba(0, 0, 0, 0.03);
+  }
+  .infoSeaside {
+    h3 {
+      font-weight: 600;
+      color: black;
+    }
+  }
+  .search {
+    h3 {
+      font-weight: 600;
+      color: black;
+      font-size: 18px;
+      padding: 20px;
+    }
+    p {
+      padding: 25px 0;
+    }
+    input {
+      background-color: #f8f8f8;
+      border: none;
+      padding: 10px 0;
+    }
+    i {
+      background-color: #3fd0d4;
+      color: white;
+      padding: 15px;
+    }
+  }
+  .categories {
+    li {
+      list-style: none;
+      padding-top: 10px;
+      font-weight: 600;
+
+      a {
+        color: #363636;
+        text-decoration: none;
+      }
+    }
+  }
+  .GoodKnow {
+    background-color: #40d0d4;
+    color: white;
+    padding: 20px;
+
+    .KnowIcon {
+      p {
+        font-size: 16px;
+        i {
+          margin-right: 21px;
+          font-size: 16px;
+        }
+      }
+    }
+    .plentyInform {
+      font-size: 16px;
+    }
+  }
+  .Municipalities {
+    h3 {
+      font-weight: 600;
+      color: black;
+      padding-top: 30px;
+    }
+  }
+}
+// ==========
+// Seaside End
+// ==========
