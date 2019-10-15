@@ -1,0 +1,167 @@
+#topHeader {
+  color: white;
+  background-color: black; }
+  #topHeader .profil {
+    background-color: #3fd0d4;
+    padding: 15px; }
+  #topHeader .left-info span {
+    margin-right: 8px; }
+  #topHeader .sosial-icon i {
+    padding: 8px; }
+  #topHeader .dropedDown {
+    position: relative;
+    padding: 15px 45px;
+    background-color: #3abdc1; }
+    #topHeader .dropedDown:hover .drop-menu {
+      visibility: visible;
+      opacity: 1; }
+    #topHeader .dropedDown .drop-menu {
+      transition: 0.2s ease-in-out;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      width: 100%;
+      z-index: 5;
+      opacity: 0;
+      visibility: hidden; }
+    #topHeader .dropedDown li {
+      padding: 15px;
+      background-color: aqua; }
+
+#Header {
+  position: relative; }
+
+.NavBar li {
+  padding: 15px 25px; }
+.NavBar .droppedMenu {
+  position: relative; }
+  .NavBar .droppedMenu:hover .dropdownMenu {
+    opacity: 1;
+    visibility: visible; }
+  .NavBar .droppedMenu .dropdownMenu {
+    transition: 0.3s;
+    position: absolute;
+    left: 0;
+    background: white;
+    top: 100%;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden; }
+.NavBar .bigdropped:hover .bigdropdown-menu {
+  opacity: 1;
+  visibility: visible; }
+.NavBar .bigdropped .bigdropdown-menu {
+  transition: 0.3s;
+  position: absolute;
+  left: 0;
+  background: white;
+  top: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden; }
+
+#Holiday {
+  background-image: url(https://setsail.select-themes.com/wp-content/uploads/2018/09/destionations-1-title.jpg);
+  width: 100%;
+  background-attachment: fixed; }
+  #Holiday .Holiday {
+    padding: 14rem 0;
+    text-align: center; }
+  #Holiday h3 {
+    font-size: 33px;
+    font-weight: 400;
+    color: aliceblue;
+    text-align: center;
+    font-family: "Satisfy", cursive; }
+  #Holiday h1 {
+    color: aliceblue;
+    font-size: 65px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif; }
+
+#Seaside {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.714285714285714em;
+  font-weight: 400;
+  color: #505050; }
+  #Seaside .seasideAll {
+    margin-top: -100px;
+    background-color: white;
+    padding: 3rem;
+    box-shadow: 0 3px 20px 5px rgba(0, 0, 0, 0.03); }
+  #Seaside .infoSeaside h3 {
+    font-weight: 600;
+    color: black; }
+  #Seaside .search h3 {
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+    padding: 20px; }
+  #Seaside .search p {
+    padding: 25px 0; }
+  #Seaside .search input {
+    background-color: #f8f8f8;
+    border: none;
+    padding: 10px 0; }
+  #Seaside .search i {
+    background-color: #3fd0d4;
+    color: white;
+    padding: 15px; }
+  #Seaside .categories li {
+    list-style: none;
+    padding-top: 10px;
+    font-weight: 600; }
+    #Seaside .categories li a {
+      color: #363636;
+      text-decoration: none; }
+  #Seaside .GoodKnow {
+    background-color: #40d0d4;
+    color: white;
+    padding: 20px; }
+    #Seaside .GoodKnow .KnowIcon p {
+      font-size: 16px; }
+      #Seaside .GoodKnow .KnowIcon p i {
+        margin-right: 21px;
+        font-size: 16px; }
+    #Seaside .GoodKnow .plentyInform {
+      font-size: 16px; }
+  #Seaside .Municipalities {
+    padding-bottom: 100px; }
+    #Seaside .Municipalities h3 {
+      font-weight: 600;
+      color: black;
+      padding-top: 30px; }
+  #Seaside .Reply {
+    background-color: #40d0d4;
+    color: white;
+    padding: 150px; }
+    #Seaside .Reply input {
+      background-color: #8ee6e9;
+      color: white;
+      border: none;
+      width: 100%; }
+
+.Newsletter {
+  padding: 35px 20px 40px;
+  background-color: #40d0d4; }
+  .Newsletter input {
+    width: 100%;
+    margin-bottom: 5px; }
+    .Newsletter input::placeholder {
+      color: white; }
+    .Newsletter input .Message {
+      background-color: #8ee6e9;
+      color: white;
+      border: none;
+      padding: 50px;
+      margin: 2px;
+      width: 100%;
+      box-sizing: border-box; }
+      .Newsletter input .Message::placeholder {
+        color: white; }
+    .Newsletter input .Subscribe {
+      background-color: white;
+      color: #575656; }
+
+/*# sourceMappingURL=style.css.map */
